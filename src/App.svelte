@@ -1,47 +1,21 @@
 <script>
-  import svelteLogo from './assets/svelte.svg'
-  import viteLogo from '/vite.svg'
-  import Counter from './lib/Counter.svelte'
+  let title = "Meshtastic Dashboard";
 </script>
 
-<main>
-  <div>
-    <a href="https://vite.dev" target="_blank" rel="noreferrer">
-      <img src={viteLogo} class="logo" alt="Vite Logo" />
-    </a>
-    <a href="https://svelte.dev" target="_blank" rel="noreferrer">
-      <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
-    </a>
-  </div>
-  <h1>Vite + Svelte</h1>
+<div class="min-h-screen bg-neutral-900 text-white flex flex-col">
+  <!-- Header -->
+  <header class="w-full p-4 border-b border-neutral-800">
+    <h1 class="text-2xl font-semibold">{title}</h1>
+    <p class="text-sm text-neutral-400">Frontend con Tailwind (sin IA aún)</p>
+  </header>
 
-  <div class="card">
-    <Counter />
-  </div>
-
-  <p>
-    Check out <a href="https://github.com/sveltejs/kit#readme" target="_blank" rel="noreferrer">SvelteKit</a>, the official Svelte app framework powered by Vite!
-  </p>
-
-  <p class="read-the-docs">
-    Click on the Vite and Svelte logos to learn more
-  </p>
-</main>
-
-<style>
-  .logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
-  }
-  .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-  }
-  .logo.svelte:hover {
-    filter: drop-shadow(0 0 2em #ff3e00aa);
-  }
-  .read-the-docs {
-    color: #888;
-  }
-</style>
+  <!-- Main Content -->
+  <main class="flex-1 p-6 space-y-4">
+    <section class="bg-neutral-800/70 border border-neutral-700 rounded-xl p-4">
+      <h2 class="text-lg font-semibold mb-2">Estado inicial</h2>
+      <p class="text-neutral-300">
+        Aquí irá el dashboard con datos de Meshtastic y las anomalías detectadas por la IA local.
+      </p>
+    </section>
+  </main>
+</div>
