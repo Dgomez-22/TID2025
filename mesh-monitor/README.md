@@ -1,4 +1,4 @@
-# Mesh-Based Industrial Monitoring System (Edge Computing)
+# Sistema de Monitoreo Industrial Minero basado en Mesh (Edge Computing)
 
 Este repositorio contiene el desarrollo de un sistema de monitoreo industrial en tiempo real basado en una red Mesh, orientado a escenarios con conectividad limitada o inexistente, como entornos subterráneos o mineros.
 
