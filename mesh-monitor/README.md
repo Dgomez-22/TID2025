@@ -132,12 +132,12 @@ La aplicación se ejecuta en http://localhost:{puerto}, donde el puerto es indic
 La comunicación entre nodos y backend utiliza mensajes en formato JSON.
 Ejemplo de payload procesado por el sistema:
 
-{
-  "machineId": "MACH-001",
-  "temperature": 68,
-  "vibration": 4.5,
-  "load": 90
-}
+    {
+      "machineId": "MACH-001",
+      "temperature": 68,
+      "vibration": 4.5,
+      "load": 90
+    }
 
 El backend valida, normaliza y procesa estos mensajes antes de distribuirlos a los clientes web.
 
