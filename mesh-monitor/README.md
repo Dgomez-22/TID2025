@@ -90,7 +90,7 @@ uvicorn gateway:app --reload --port 8000
 
 ---
 
-### Frontend (React + TypeScript)
+## Frontend (React + TypeScript)
 
 La interfaz web permite la visualización en tiempo real del estado de la maquinaria conectada al sistema.
 
@@ -114,7 +114,7 @@ Tecnologías utilizadas:
 
 ---
 
-### Ejecución del frontend (Inicializar segundo)
+## Ejecución del frontend (Inicializar segundo)
 
 Desde la carpeta del frontend:
 
@@ -127,7 +127,7 @@ La aplicación se ejecuta en http://localhost:{puerto}, donde el puerto es indic
 
 ---
 
-### Comunicación y Protocolo de Datos
+## Comunicación y Protocolo de Datos
 
 La comunicación entre nodos y backend utiliza mensajes en formato JSON.
 Ejemplo de payload procesado por el sistema:
